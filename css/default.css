@@ -4,6 +4,7 @@
 *{
 margin:0;
 padding:0;
+font-family: 'Spicy Rice', cursive;
 }
 
 body{
@@ -32,8 +33,8 @@ footer{
 
 @media screen and (min-width:641px){
     aside{
-        padding:10px;
-        background-color:green;
+        width: calc(50% - 20px);
+        float: left;
     }
     #side:after{
 
@@ -51,15 +52,15 @@ footer{
     margin:auto;
 }
 section{
-    width: calc(70%-20px);
+    width: calc(70% - 20px);
     float:left;
 }
 #side{
-    width: calc(1024px-718px);
+    width: calc(1024px - 718px);
 float: left;
 }
 aside{
-    width:calc(100%-20px);
+    width:calc(100% - 20px);
 }
 #main:after{
 
